@@ -1,0 +1,8 @@
+.status-bar { display: flex; align-items: center; gap: 8px; padding: 4px 20px; border-bottom: 1px solid #1f1f2e; font-size: 11px; color: #888; }
+.status-bar__dot { width: 8px; height: 8px; border-radius: 4px; flex-shrink: 0; }
+.status-bar__dot--ok  { background: #22c55e; }
+.status-bar__dot--err { background: #ef4444; }
+.status-bar__latency { color: #555; }
+.status-bar__ctx-rail { flex: 1; height: 3px; border-radius: 2px; background: #1a1a2e; }
+.status-bar__ctx-fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
+.status-bar__ctx-label { min-width: 80px; text-align: right; }

@@ -1,0 +1,201 @@
+/* ============================================================
+   Claude Fable 5 — Global styles
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg:         #0f0f13;
+  --color-surface:    #18181f;
+  --color-surface2:   #22222d;
+  --color-border:     #2e2e3d;
+  --color-text:       #e4e4ef;
+  --color-text-dim:   #7a7a99;
+  --color-accent:     #7c6af7;
+  --color-accent-dim: #4a3f99;
+  --color-user-bg:    #1e2033;
+  --color-asst-bg:    #18181f;
+  --color-ok:         #4caf7a;
+  --color-warn:       #e0a843;
+  --color-critical:   #e05252;
+  --color-danger:     #e05252;
+
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+
+  --font-mono: 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --transition: 120ms ease;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-dim); }
+
+/* ---- App shell ---- */
+.app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 52px;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+  flex-shrink: 0;
+  gap: 12px;
+}
+
+.app-header__left,
+.app-header__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-logo {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-accent);
+  letter-spacing: -0.3px;
+  margin-right: 4px;
+}
+
+.app-main {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Buttons ---- */
+.btn-ghost {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-dim);
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-family: inherit;
+  transition: color var(--transition), background var(--transition), border-color var(--transition);
+}
+.btn-ghost:hover {
+  color: var(--color-text);
+  background: var(--color-surface2);
+  border-color: var(--color-border);
+}
+.btn-ghost.active {
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+}
+
+.btn-sm { padding: 3px 8px; font-size: 12px; }
+
+.btn-primary {
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: background var(--transition), opacity var(--transition);
+}
+.btn-primary:hover { background: #9080ff; }
+.btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn-danger {
+  background: var(--color-danger);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  transition: background var(--transition);
+}
+.btn-danger:hover { background: #c03f3f; }
+
+/* ---- API key screen ---- */
+.api-key-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--color-bg);
+}
+
+.api-key-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.api-key-card h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.api-key-card p {
+  color: var(--color-text-dim);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.api-key-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.api-key-card input {
+  background: var(--color-surface2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 10px 12px;
+  width: 100%;
+  outline: none;
+  transition: border-color var(--transition);
+}
+.api-key-card input:focus { border-color: var(--color-accent); }
+
+.api-key-card .hint { font-size: 12px; }
+.api-key-card .hint a { color: var(--color-accent); }

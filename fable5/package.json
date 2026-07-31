@@ -1,0 +1,12 @@
+{
+  "name": "claude-fable-5-free-desktop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Claude Fable 5 free desktop — 1M context AI, back online",
+  "author": "claude5fable",
+  "license": "MIT",
+  "scripts": { "dev": "vite", "build": "tsc && vite build" },
+  "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "devDependencies": { "@types/react": "^18.3.5", "@vitejs/plugin-react": "^4.3.1", "typescript": "^5.5.4", "vite": "^5.4.0" }
+}

